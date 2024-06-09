@@ -19,3 +19,17 @@ Currently, you can quickly restart, shutdown, hibernate, and create your own cus
  ## That is it!
 
 # How do you use it?
+
+
+# What will be added in the future?
+ In the future, there probably will be added:
+ ## Program reprogrammed in C
+  This is for speed reasons.
+ ## More (or dynamic) slots for custom commands.
+   Unlimited commands means unlimited possibilities.
+ ## Command Management
+  Deleting commands, editing commands, all of that stuff.
+ ## Windows / Mac ports
+  Probably the easiest one, but ill have to complete everything else before porting.
+ ## Saving custom shortcuts
+  Literally explained by the title - and probably the next one im going to add.
