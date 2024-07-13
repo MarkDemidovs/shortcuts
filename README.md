@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# what is shortcuts?
+shortcuts is a small software for simplifying different command actions on (currently only) Linux.
 
-## Getting Started
+# what can you currently do with shortcuts?
+Currently, you can quickly restart, shutdown, hibernate, and create your own custom command.
 
-First, run the development server:
+# how do you run it?
+ ## Linux 
+  ### You must install the C++ compiler first,
+   https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  ### Then, 9 times out of 10, you'll have to compile the program, 
+  do this by using the terminal and CD (changing the directory) to the program, and typing
+  > g++ main.cpp
+  then, to run it, type
+  > ./a.out
+ ## More systems coming soon.
+ 
+ ## That is it!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# How do you use it?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# What will be added in the future?
+ In the future, there probably will be added:
+ ## Program reprogrammed in C
+  This is for speed reasons.
+ ## More (or dynamic) slots for custom commands.
+   Unlimited commands means unlimited possibilities.
+ ## Command Management
+  Deleting commands, editing commands, all of that stuff.
+ ## Windows / Mac ports
+  Probably the easiest one, but ill have to complete everything else before porting.
+ ## Saving custom shortcuts
+  Literally explained by the title - and probably the next one im going to add.
